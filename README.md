@@ -5,4 +5,4 @@
 <h2>tem alguma dica manda mensagem no discord: capitão rex#0544 <br>
 Esse site foi criado por Ob1
 <hr>
-<h4><strong>ESSE SITE É UM TRABALHO ESCOLAR NÃO FUNCIONAL!</strong></h4>
+<h1><strong>ESSE SITE É UM TRABALHO ESCOLAR NÃO FUNCIONAL!</strong></h1>
