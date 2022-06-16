@@ -326,3 +326,7 @@ input:focus {
 button {
     margin-left: .5em;
 }
+
+.rc {
+    aling-items: center;
+}
