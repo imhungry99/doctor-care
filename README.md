@@ -1,8 +1,16 @@
-<a href="https://imhungry99.github.io/"><h1>Doctor Care</h1></a>
-
-<h2>O site foi criado para ajudar pessoas que tem anorexia e outras doenças relacionadas. <br> A proposta do site é ter consultas com psicologos online para o seu tratamento, após 5 consultas você tera a opção de comprar o plano vip onde você tera consultas ilimitadas com nossos psicologos.</h2>
-
+<div text-aling="center" >
+<a href="https://imhungry99.github.io/doctor-care/doctorcare/pages/home/"><h1><strong>Doctor Care</strong></h1></a>
+</div>
+<br>
+<strong><hr></strong>
+<br>
+<h2>O site foi criado para ajudar pessoas que tem anorexia e outros transtornos alimentares. <br> A proposta do site é ter consultas com psicologos, nutricionistas, clinicos, entre outros para ajudar no seu tratamento. esse site é de uma clinica que se chama "doctorcare" focada em ajudar pessoa com anorexia, <br>venha nós visitar em: alameda laalala numero 829 bairro lutadla</h2>
+<br>
+<hr>
+<br>
 <h2>tem alguma dica manda mensagem no discord: capitão rex#0544 <br>
 Esse site foi criado por Ob1
-
-<h4>ESSE SITE É UM TRABALHO ESCOLAR NÃO FUNCIONAL!</h4>
+<br>
+<hr>
+<br>
+<h4><strong>ESSE SITE É UM TRABALHO ESCOLAR NÃO FUNCIONAL!</strong></h4>
