@@ -306,3 +306,7 @@ form input, form textarea {
     border: 1px solid var(--cor-primaria);
     border-radius: 20px;
 }
+
+form input[type=submit] {
+    
+}
