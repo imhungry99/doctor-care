@@ -52,7 +52,7 @@ header img {
 header::before {
     content: "";
     width: 100%;
-    height: calc(85rem + var(--nave-height));
+    height: calc(150rem + var(--nave-height));
     background-color: var(--caixinhas-light);
     display: block;
     position: absolute;
