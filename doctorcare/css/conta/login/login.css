@@ -25,7 +25,6 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 1.6rem;
     text-align: center;
-    overflow: overlay;
 }
 
 .wrapper{
@@ -60,6 +59,7 @@ header::before {
     top: 0;
     left: 0;
     z-index: -1;
+    overflow: overlay;
 }
 
 
