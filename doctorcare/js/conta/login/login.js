@@ -14,3 +14,8 @@ function openMenu() {
 function closeMenu() {
     document.body.classList.remove('menu-expanded')
 }
+
+function setTopo(){
+    $(window).scrollTop(0);
+}
+$(window).bind('scroll', setTopo);
