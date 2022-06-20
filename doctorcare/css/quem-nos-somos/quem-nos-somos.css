@@ -288,6 +288,10 @@ body.menu-expanded button path {
     font-size: 1.6rem;
     line-height: 150%;
 }
-.quem-somos-nos {
+.quem-nos-somos {
     font-family: 'Raleway', sans-serif;
+}
+
+.quem-nos-somos h2{
+    font-size: x-large;
 }
