@@ -34,6 +34,10 @@ body {
     padding-inline: 2.4rem;
 }
 
+.wrapper h1 {
+    font-size: 3.4rem;
+}
+
 ul {
     list-style: none;
 }
