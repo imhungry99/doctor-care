@@ -274,14 +274,6 @@ body.menu-expanded button path {
     margin-bottom: 0.4rem;
 }
 
-.card h2 {
-    font-size: 2rem;
-    color: var(--headline);
-    line-height: 130%;
-    margin-bottom: 0.4rem;
-    font-style: italic;
-}
-
 .card p {
     color: var(--cor-primaria);
     margin: 0;
