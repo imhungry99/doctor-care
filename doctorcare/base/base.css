@@ -117,7 +117,7 @@ p {
 }
 
 .caixinhas h3 {
-    font-size: 4.8rem;
+    font-size: 4.5rem;
     color: var(--headline);
     line-height: 130%;
     margin-bottom: 0.4rem;
@@ -267,7 +267,7 @@ body.menu-expanded button path {
 }
 
 .card h3 {
-    font-size: 3rem;
+    font-size: 4.5rem;
     color: var(--headline);
     line-height: 130%;
     margin-bottom: 0.4rem;
