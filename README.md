@@ -4,4 +4,4 @@
 <hr>
 <h1><strong>ESSE SITE É UM TRABALHO ESCOLAR NÃO FUNCIONAL!</strong></h1>
 <hr>
-<h1>Arthur Silva, Bruna  e Julia Pontel</h1>
+<h1>Arthur Silva, Bruna Plentz e Julia Pontel</h1>
