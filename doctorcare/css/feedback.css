@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+d
+:root {
+    --cor-primaria: hsl(170, 100%, 26%);
+    --headline: hsl(210, 11%, 15%);
+    --paragrafo: hsl(210, 9%, 31%);
+    --caixinhas: hsl(39, 100%, 97%);
+    --caixinhas-light: hsl(148, 23%, 89%);
+    --nave-height: 7.2rem;
+    font-size: 62.5%; 
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    overflow: overlay;
+}
+
+.wrapper{
+    width: 37.5rem;
+    margin-inline: auto;
+    padding-inline: 2.4rem;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    margin-top: calc(4.1rem + var(--nave-height));
+}
+
+header img {
+    display: block;
+    margin-inline: auto;
+    object-position: 0 2rem;
+    width: 26.4rem;
+}
+
+header::before {
+    content: "";
+    width: 100%;
+    height: calc(85rem + var(--nave-height));
+    background-color: var(--caixinhas-light);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+h4 {
+    font-size: 1.4rem;
+    color: var(--cor-primaria);
+    margin-bottom: 1.6rem;
+}
+
+h1 {
+    font-size: 3.4rem;
+    color: var(--headline);
+    line-height: 130%;
+    margin-bottom: 2.4rem;
+}
+
+p {
+    font-size: 1.8rem;
+    line-height: 150%;
+    font-weight: 400;
+    color: var(--paragrafo);
+    margin-bottom: 3.2rem;
+}
+
+.botao {
+    background: var(--cor-primaria);
+    border: none;
+    border-radius: 4rem;
+    height: 6.2rem;
+    width: 26.3rem;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botao a {
+    text-decoration: none;
+    color: #FFFF;
+}
+
+.caixinhas {
+    width: 32.7;
+    padding-block: 4rem;
+    margin-inline: auto;
+    background-color: var(--caixinhas);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.caixinhas h3 {
+    font-size: 4.8rem;
+    color: var(--headline);
+    line-height: 130%;
+    margin-bottom: 0.4rem;
+}
+
+.caixinhas p {
+    color: var(--cor-primaria);
+    margin: 0;
+    font-size: 1.6rem;
+    line-height: 150%;
+}
+
+nav {
+    display: flex;
+    height: var(--nave-height);
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav.scroll {
+    background-color: var(--cor-primaria);
+    width: 100vw;
+
+}
+
+nav.scroll svg:nth-child(1) path {
+    fill: white;
+}
+
+nav.scroll .abrir-menu svg path {
+    stroke: white;
+}
+
+nav button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.menu,
+.fechar-menu,
+body.menu-expanded .abrir-menu {
+    opacity: 0;
+    visibility: hidden;
+}
+
+body.menu-expanded .menu,
+body.menu-expanded .fechar-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+body.menu-expanded {
+    overflow: hidden;
+}
+
+body.menu-expanded > :not(nav) {
+    display: none;
+}
+
+body.menu-expanded .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: var(--cor-primaria);
+    width: 100vw;
+    height: 100vh;
+    padding-top: var(--nave-height);
+}
+
+body.menu-expanded nav {
+    position: relative;
+}
+
+.menu ul:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+    margin-top: 6rem;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.1rem;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu .agendar {
+    background: #FFFFFF;
+    border-radius: 4rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--cor-primaria);
+    display: inline-block;
+    padding: 1.6rem 3.2rem;
+    margin-top: 4.8rem;
+    margin-bottom: 8rem;
+}
+
+.social {
+    display: flex;
+    gap: 3.2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+body.menu-expanded .logo, 
+body.menu-expanded button {
+    position: relative;
+    z-index: 100;
+}
+
+body.menu-expanded .logo path {
+    fill:white;
+}
+
+body.menu-expanded button path {
+    stroke: white;
+}
+
+.fechar-menu {
+    padding-left: 12rem;
+}
+
+.cards {
+    width: 32.7;
+    padding-block: 4rem;
+    margin-inline: auto;
+    background-color: var(--caixinhas);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6rem;    
+}
+
+.card h3 {
+    font-size: 3rem;
+    color: var(--headline);
+    line-height: 130%;
+    margin-bottom: 0.4rem;
+}
+
+.card h2 {
+    font-size: 2rem;
+    color: var(--headline);
+    line-height: 130%;
+    margin-bottom: 0.4rem;
+    font-style: italic;
+}
+
+.card p {
+    color: var(--cor-primaria);
+    margin: 0;
+    font-size: 1.6rem;
+    line-height: 150%;
+}
