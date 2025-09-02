@@ -1,4 +1,4 @@
-<a href="https://imhungry99.github.io/doctor-care/doctorcare/pages/home/"><h1><strong>Doctor Care</strong></h1></a>
+<a href="https://imhungry99.github.io/doctor-care/doctorcare/"><h1><strong>Doctor Care</strong></h1></a>
 <hr>
 <h2>O site foi criado para ajudar pessoas que tem anorexia e outros transtornos alimentares. <br> A proposta do site é ter consultas com psicologos, nutricionistas, clinicos, entre outros para ajudar no seu tratamento. esse site é de uma clinica que se chama "doctorcare" focada em ajudar pessoa com anorexia, <br>venha nós visitar em: alameda laalala numero 829 bairro lutadla</h2>
 <hr>
